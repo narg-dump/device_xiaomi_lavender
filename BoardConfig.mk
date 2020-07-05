@@ -43,7 +43,7 @@ BOARD_KERNEL_CMDLINE += skip_initramfs rootwait ro init=/init
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/lavender
-TARGET_KERNEL_CONFIG := lavender-perf_defconfig
+TARGET_KERNEL_CONFIG := lavender_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
