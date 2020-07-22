@@ -33,7 +33,6 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 CUSTOM_BUILD_TYPE := UNOFFICIAL
-TARGET_BOOT_ANIMATION_RES := 1080
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
