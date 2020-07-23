@@ -32,6 +32,7 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 # Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+WITH_GAPPS := true
 CUSTOM_BUILD_TYPE := UNOFFICIAL
 
 # Build Fingerprint
