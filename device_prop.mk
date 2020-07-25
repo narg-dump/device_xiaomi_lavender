@@ -102,6 +102,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.display.lcd_density=403
 
+# DRM
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true
+
 # Paper mode
 PRODUCT_PROPERTY_OVERRIDES += \
 	sys.jdi_nt36672_offset=9 \
