@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# Inherit Redmi Note 7 AOSiP device config
+# Inherit Redmi Note 7 Bliss device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_lavender.mk
+    $(LOCAL_DIR)/bliss_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_lavender-eng \
-    aosip_lavender-userdebug \
-    aosip_lavender-user
+    bliss_lavender-user \
+    bliss_lavender-userdebug \
+    bliss_lavender-eng
