@@ -32,6 +32,7 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 # Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1080
 CUSTOM_BUILD_TYPE := UNOFFICIAL
 
 # Build Fingerprint
@@ -43,7 +44,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys"
 
 # Device identifier
-PRODUCT_NAME := aosip_lavender
+PRODUCT_NAME := bliss_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
