@@ -23,9 +23,9 @@
 
 # Inherit Redmi Note 7 AOSiP device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_lavender.mk
+    $(LOCAL_DIR)/bootleg_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_lavender-eng \
-    aosip_lavender-userdebug \
-    aosip_lavender-user
+    bootleg_lavender-eng \
+    bootleg_lavender-userdebug \
+    bootleg_lavender-user
