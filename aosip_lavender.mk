@@ -40,7 +40,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME="lavender" \
 	PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.9.0.PFGMIXM release-keys"
 
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.201005.004/6782484:user/release-keys"
 
 # Device identifier
 PRODUCT_NAME := aosip_lavender
